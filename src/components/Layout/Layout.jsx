@@ -75,10 +75,7 @@ const Layout = ({ children, title = 'World Ranks' }) => {
       <main className={styles.main}>{children}</main>
 
       <footer className={styles.footer}>
-        Ryan Peterson @{' '}
-        <a href="http://ryanjpeterson.dev" target="_blank">
-          ryanjpeterson.dev
-        </a>
+        Ryan Peterson @ <a href="http://ryanjpeterson.dev">ryanjpeterson.dev</a>
       </footer>
     </div>
   );
