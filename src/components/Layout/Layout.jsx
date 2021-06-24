@@ -39,7 +39,7 @@ const Layout = ({ children, title = 'World Ranks' }) => {
       </Head>
 
       <header className={styles.header}>
-        <Link href="/">
+        <Link href="/" passHref>
           <svg
             width="175"
             height="24"
