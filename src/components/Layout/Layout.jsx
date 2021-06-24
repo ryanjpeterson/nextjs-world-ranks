@@ -76,7 +76,7 @@ const Layout = ({ children, title = 'World Ranks' }) => {
 
       <footer className={styles.footer}>
         Ryan Peterson @{' '}
-        <a href="http://ryanjpeterson.dev" target="_blank">
+        <a href="http://ryanjpeterson.dev" target="_blank" rel="noreferrer">
           ryanjpeterson.dev
         </a>
       </footer>
