@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import KeyboardArrowUpRounded from '@material-ui/icons/KeyboardArrowUpRounded';
 import KeyboardArrowDownRounded from '@material-ui/icons/KeyboardArrowDownRounded';
 import styles from './CountriesTable.module.css';
@@ -105,7 +104,7 @@ const CountriesTable = ({ countries }) => {
         <Link key={country.name} href={`/country/${country.alpha3Code}`}>
           <div className={styles.row}>
             <div className={styles.flag}>
-              <Image src={country.flag} alt={country.name} />
+              <img src={country.flag} alt={country.name} />
             </div>
             <div className={styles.name}>{country.name}</div>
             <div className={styles.population}>{country.population}</div>
